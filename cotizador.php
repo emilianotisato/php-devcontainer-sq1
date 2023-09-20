@@ -1,6 +1,6 @@
 <?php
 
-echo 'Home page';
+echo 'Pagina de cotizar';
 
 include_once 'app/views/partials/layout.php';
 ?>
