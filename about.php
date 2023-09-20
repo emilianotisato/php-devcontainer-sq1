@@ -1,7 +1,3 @@
 <?php
 
-echo 'Pagina nosotros';
-
-include_once 'app/views/partials/layout.php';
-?>
-
+include_once 'app/views/about.php';
