@@ -1,6 +1,4 @@
 <?php
 
-echo 'Home page';
-
-include_once 'app/views/partials/layout.php';
+include_once 'app/views/home.php';
 ?>
