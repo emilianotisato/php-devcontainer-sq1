@@ -1,6 +1,6 @@
 <?php
 
-echo 'Pagina de cotizar';
+$content =  'Pagina de cotizar';
 
 include_once 'partials/layout.php';
 ?>

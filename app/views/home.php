@@ -1,7 +1,9 @@
 <?php
 
-echo 'Home page';
+$content = <<<HTML
+<h1 class="bg-red-100">Hola desde la vista home</h1>
+HTML;
 
-include_once 'partials/layout.php';
+include 'partials/layout.php';
 ?>
 

@@ -1,12 +1,14 @@
 <?php
 
-include_once '../functions.php';
+include_once '../support.php';
+
+include '../vendor/autoload.php';
 
 $requestedUrl = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 
 $routes = [
-    '/' => '../index.php',
+    '/' => '../home.php',
     '/about' => '../about.php',
     '/products' => '../products.php',
     '/quote' => '../quote.php'
