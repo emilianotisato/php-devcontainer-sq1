@@ -28,10 +28,10 @@
 			"label": "Hello Remote World",
 			"onAutoForward": "notify"
 		}
-	},
+	}
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sudo apt install sqlite3 && sudo apt-get install php-sqlite3"
+	// "postCreateCommand": "sudo apt update && sudo apt upgrade -y && sudo apt install sqlite3 && sudo apt install php8.2-sqlite3"
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
