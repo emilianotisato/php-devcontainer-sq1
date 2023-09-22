@@ -9,4 +9,3 @@ include_once '../vendor/autoload.php';
 (new Routes)->handleRequest(
     parse_url($_SERVER['REQUEST_URI'])['path']
 );
-
